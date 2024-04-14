@@ -1,0 +1,57 @@
+\documentclass[¨12pt,letter paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{parskip}
+\title{DESAFIO, MAT-117}
+\author{Darío Choque L.}
+\date{12 de April 2024}
+\begin{document}
+   \begin{figure}
+        \centering
+        \includegraphics[width=0.2\linewidth]{logoumsa.png}
+        \caption{UMSA}
+        \label{fig:enter-label}
+    \end{figure}
+ \maketitle
+         
+     \section{DESAFIO }
+         \subsection{Medida}  
+               \begin{itemize}
+                       \item [$-$] Por $espacio$ $medible$ entendemos un par ordenado $ (\Omega ,B)$que consta de un conjunto $\Omega$ y un $\sigma$ $-$álgebra $B$ de subconjuntos de $\Omega$. Un conjunto $A$ de $\Omega$ se llama $medible$ si $A \in B$.
+                       \item [$-$] Una $medida$ $\mu$ en un espacio medible $(\Omega ,B)$ es una función $\mu$:$B \longrightarrow [0,\infty]$ que satisface:
+                       $$\mu(\varnothing)=0$$
+                       $$\mu(\bigcup_{i}^\infty E_i)=\sum_i^{\infty}{ \mu (E_i)}$$
+                       para cualquier suseción ${E_i}$ de conjuntos medibles disjuntos, es decir $E_i \cap E_j=\varnothing,E_i \in B,i\neq j$.
+                       \item [$-$] $(\Omega ,B,\mu)$ se llama $espacio$ $de$ $medida$.
+                   
+                       
+               \end{itemize} 
+                    
+     \section{DESAFIO } 
+        
+        
+          \textbf{Teorema 1} $Los$ $siguientes$ $ afirmaciones$ $ son$ $ equivalentes$ $ para$ $ un$ $ grupo $ $G.$
+                  \begin{multicols}{2}
+                         \begin{enumerate}
+                             \item $P(G)=1$ 
+                              \item $G$ $es$ $abeliano$
+                               \item $Z(G)=G$
+                                \item $G'={1}$
+                                 \item $C_G(a)=G$ $para$ $todo$ $a\in G$
+                                  \item $G/G'\cong G.$                                  
+                         \end{enumerate}
+                   \end{multicols}  
+         \textbf{Demostración.} Si $P(G)=1$, entonces $|L(G)|=|G|^2$. Luego $L(G)=G^2$, y esto significa $xy=yx$ para todo $x,y \in G$. Así $G$ es un grupoabeliano. Es inmediatoobservar que el razonamiento inverso tambien es cierto, lo que prueba que $1$, es equivalente a 2.
+            \begin{flushright}
+                  \textbf{\(\blacksquare\)}
+            \end{flushright}
+          \hspace{1 cm}Segun este resultado, para tener grados de conmutatividad diferentes de $1$ debemos analizar grupos no abelianos.
+                
+\end{document}
